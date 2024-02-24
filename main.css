@@ -1,0 +1,83 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+#brandimage {
+  width: 100px;
+}
+
+.sm-card {
+  margin: 20px;
+  width: 151px;
+}
+
+.sm-card img {
+  width: 150px;
+}
+
+.sm-card-text {
+  font-size: 10px;
+}
+
+.navbar {
+  position: relative;
+  bottom: 560px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card-img-overlay {
+  align-self: end;
+}
+
+#q-card-1 {
+  width: 550px;
+}
+
+#q-cards img {
+  width: 450px;
+}
+
+#q-cards {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px;
+}
+
+.card {
+  flex: 1 1 300px; /* Set a specific width for the cards */
+  margin: 10px;
+  height: 330px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 150px; /* Set a fixed height for the images */
+  object-fit: cover; /* Ensure the images cover the entire space */
+}
+
+.q-card-text {
+  color: #6f5e4d;
+  text-align: right;
+  font-family: "Roboto Condensed", sans-serif;
+  padding-top: 50px;
+  padding-bottom: 200px;
+  font-size: 45px;
+}
+
+.card-sub{
+  margin-top: 0px;
+}
+
+.btn{
+  padding-top: 20px;
+}
+
+.card-section{
+  display: flex;
+  flex-wrap: wrap;
+}
